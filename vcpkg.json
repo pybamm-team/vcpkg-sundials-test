@@ -1,0 +1,11 @@
+{
+  "name": "pybamm",
+  "version-string": "23.9rc0",
+  "dependencies": [
+    {
+      "name": "sundials",
+      "default-features": false,
+      "features": ["klu"]
+    }
+  ]
+}
